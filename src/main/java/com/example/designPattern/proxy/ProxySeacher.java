@@ -1,7 +1,5 @@
 package com.example.designPattern.proxy;
 
-import javafx.scene.layout.VBox;
-
 /**
  * @Author Legion
  * @Create 2020/11/14 15:52
@@ -29,7 +27,6 @@ public class ProxySeacher implements Searcher {
         }else {
             this.writeLog(userId, "验证失败");
         }
-
     }
 
     public boolean validate(String userId){

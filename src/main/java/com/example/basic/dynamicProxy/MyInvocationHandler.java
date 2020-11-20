@@ -18,6 +18,7 @@ public class MyInvocationHandler<T> implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("记录日志");
+        // 调用目标类中的方法
         method.invoke(target, args);
         System.out.println("结束");
         return null;
