@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f93e948-f972-4cb0-8522-80781aa03bad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../software/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kEYDewwMcOEUzrTJAWpxsR4ezy" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/notes" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.iocAnno" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\git\spring_example\src\main\resources\notes" />
+      <recent name="D:\code\git\spring_example\src\main\resources\notes\img" />
+      <recent name="D:\code\git\spring_example\src\main\java\com\example\aopAnno" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DynamicProxyTest">
+    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.basic.dynamicProxy.DynamicProxyTest" />
+      <module name="spring_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.basic.dynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCAnnoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.iocAnno.IOCAnnoTest" />
+      <module name="spring_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.iocAnno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPAnnoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aopAnno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aopAnno" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aopAnno.AOPAnnoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCAnnoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.iocAnno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.iocAnno" />
+      <option name="MAIN_CLASS_NAME" value="com.example.iocAnno.IOCAnnoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCAnnoTest.testIoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.iocAnno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.iocAnno" />
+      <option name="MAIN_CLASS_NAME" value="com.example.iocAnno.IOCAnnoTest" />
+      <option name="METHOD_NAME" value="testIoc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DynamicProxyTest" />
+        <item itemvalue="JUnit.AOPAnnoTest" />
+        <item itemvalue="JUnit.IOCAnnoTest" />
+        <item itemvalue="JUnit.IOCAnnoTest.testIoc" />
+        <item itemvalue="Application.IOCAnnoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f93e948-f972-4cb0-8522-80781aa03bad" name="Default Changelist" comment="" />
+      <created>1605267099879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605267099879</updated>
+      <workItem from="1605267105750" duration="3982000" />
+      <workItem from="1605334102716" duration="8144000" />
+      <workItem from="1605599184303" duration="17000" />
+      <workItem from="1605613397203" duration="3412000" />
+      <workItem from="1605622613428" duration="977000" />
+      <workItem from="1605680858254" duration="84000" />
+      <workItem from="1605777157422" duration="2935000" />
+      <workItem from="1605798127941" duration="3410000" />
+      <workItem from="1605802203110" duration="1639000" />
+      <workItem from="1605803845919" duration="1706000" />
+      <workItem from="1605842340566" duration="41000" />
+      <workItem from="1605853106061" duration="4686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1605853925043">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1605853925043" />
+    <state x="280" y="268" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605853229383">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="280" y="268" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1605853229383" />
+    <state x="421" y="71" key="FileChooserDialogImpl" timestamp="1605802079839">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="71" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1605802079839" />
+    <state width="1237" height="164" key="GridCell.Tab.0.bottom" timestamp="1605854873957">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="164" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1605854873957" />
+    <state width="1237" height="164" key="GridCell.Tab.0.center" timestamp="1605854873957">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="164" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1605854873957" />
+    <state width="1237" height="164" key="GridCell.Tab.0.left" timestamp="1605854873957">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="164" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1605854873957" />
+    <state width="1237" height="164" key="GridCell.Tab.0.right" timestamp="1605854873957">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="164" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1605854873957" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1605802129281">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1605802129281" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1605855899381">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1605855899381" />
+  </component>
+</project>

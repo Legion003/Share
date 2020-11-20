@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 需要进行aop的类 -->
+    <bean id="userServiceImpl" class="com.example.aop.UserServiceImpl"></bean>
+
+    <!-- adivce们 -->
+    <bean id="logBeforeAdvice" class="com.example.aop.LogBeforeAdvice"></bean>
+    <bean id="logAfterAdvice" class="com.example.aop.LogAfterAdvice"></bean>
+
+    <!-- 配置切面 -->
+    <bean id="logBeforeAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="logBeforeAdvice"></property>
+        <property name="pattern" value="com.example.aop.*.create.*"></property>
+    </bean>
+    <bean id="logAfterAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="logAfterAdvice"></property>
+        <property name="pattern" value="com.example.aop.*.query.*"></property>
+    </bean>
+
+    <!-- 放入一个DefaultAdvisorAutoProxyCreator，可以让ioc容器中所有的advisor来匹配方法 -->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+
+</beans>
